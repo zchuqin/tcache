@@ -1,13 +1,16 @@
-package tcache.bean;
+package stoner.tcache.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Set;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Permission {
+public class Role {
     private String id;
-    private String permissionsName;
+    private String roleName;
+    private Set<Permission> permissions;
 }

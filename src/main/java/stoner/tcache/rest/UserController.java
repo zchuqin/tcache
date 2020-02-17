@@ -1,11 +1,11 @@
-package tcache.rest;
+package stoner.tcache.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import tcache.bean.User;
-import tcache.service.UserService;
+import stoner.tcache.bean.User;
+import stoner.tcache.service.UserService;
 
 @Controller
 public class UserController {

@@ -1,6 +1,6 @@
-package tcache.service;
+package stoner.tcache.service;
 
-import tcache.bean.User;
+import stoner.tcache.bean.User;
 
 public interface UserService {
 
