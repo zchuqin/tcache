@@ -9,4 +9,8 @@ public interface UserService {
     User getUser(String name);
 
     User getUser(int id);
+
+    User saveUser(User user);
+
+    boolean cleanUser(String name);
 }

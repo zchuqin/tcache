@@ -20,6 +20,18 @@ public class UserController {
     }
 
     @ResponseBody
+    @RequestMapping("saveUser")
+    public User saveUser(User user) {
+        return userService.saveUser(user);
+    }
+
+    @ResponseBody
+    @RequestMapping("cleanUser")
+    public boolean cleanUser(String name) {
+        return userService.cleanUser(name);
+    }
+
+    @ResponseBody
     @RequestMapping("getUserById")
     public User getUser(int id) {
         return userService.getUser(id);
